@@ -1,0 +1,238 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 118026,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinationFile.setup_step_env()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Enter Github Home Page",
+        "description": "",
+        "id": "github-login;enter-github-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16175250917,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open github",
+            "match": {
+              "location": "StepDefinationFile.open_github()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2693636990,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters invalid username",
+            "match": {
+              "location": "StepDefinationFile.user_enter_invalid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77225222,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should get the message \u0027Incorrect username or password\u0027",
+            "match": {
+              "location": "StepDefinationFile.user_should_get_the_message_Incorrect_username_or_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1507933718,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters invalid password",
+            "match": {
+              "location": "StepDefinationFile.user_enter_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67186281,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should get the message \u0027Incorrect username or password\u0027",
+            "match": {
+              "location": "StepDefinationFile.user_should_get_the_message_Incorrect_username_or_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4011064292,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters valid username and password",
+            "match": {
+              "location": "StepDefinationFile.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15807140,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be Successfully LoggedIn",
+            "match": {
+              "location": "StepDefinationFile.user_should_be_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@sanity"
+          },
+          {
+            "line": 2,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 58692,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinationFile.setup_step_env()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Enter Github Home Page",
+        "description": "",
+        "id": "github-login;enter-github-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15133108593,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Open github",
+            "match": {
+              "location": "StepDefinationFile.open_github()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2229798478,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters invalid username",
+            "match": {
+              "location": "StepDefinationFile.user_enter_invalid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36248404,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should get the message \u0027Incorrect username or password\u0027",
+            "match": {
+              "location": "StepDefinationFile.user_should_get_the_message_Incorrect_username_or_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2009749330,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters invalid password",
+            "match": {
+              "location": "StepDefinationFile.user_enter_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40026197,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should get the message \u0027Incorrect username or password\u0027",
+            "match": {
+              "location": "StepDefinationFile.user_should_get_the_message_Incorrect_username_or_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3676300963,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters valid username and password",
+            "match": {
+              "location": "StepDefinationFile.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5492377,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should be Successfully LoggedIn",
+            "match": {
+              "location": "StepDefinationFile.user_should_be_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "GitHub Login",
+    "description": "",
+    "id": "github-login",
+    "keyword": "Feature",
+    "uri": "CucumberOptions.feature"
+  }
+]
